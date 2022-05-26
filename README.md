@@ -1,6 +1,7 @@
-# Text Classiication System 
+# Food Investigator
+# Description:
 
-This workshop is based on developing a web based machine learning system for simple text classification. the following steps will show how to setup Node js server in order to run the core system of the machine learning (fasttexttool for textclassification) on input from a user. 
+This workshop is based on developing a web based machine learning system for simple text classification. the following steps will show how to setup Node js server in order to run the core system of the machine learning (fasttexttool) on input from a user. 
 
 First of all, you must enter the commands to install npm in the linux system. then downloaded the virtual box on my pc, i followed with writing in terminal the commands to install npm.
 
