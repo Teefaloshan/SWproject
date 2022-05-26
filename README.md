@@ -1,4 +1,6 @@
 # Text Classiication System 
+![Screenshot (179)](https://user-images.githubusercontent.com/105608503/170483721-adedc503-9cd1-4d60-9afb-eddfa6810e02.png)
+
 This workshop is based on developing a web based machine learning system for simple text classification. the following steps will show how to setup Node js server in order to run the core system of the machine learning (fasttexttool for textclassification) on input from a user. 
 
 First of all, you must enter the commands to install npm in the linux system. then downloaded the virtual box on my pc, i followed with writing in terminal the commands to install npm.
@@ -81,7 +83,7 @@ we used Travis CI which wass the first CI as a service tool. it introduced a new
           
      Now you return to Travis CI and go to the intended repository and click on the braches then you will wait for a      moment, few seconds later it will appear pass like in the pictures.
     
-    ![Screenshot (179)](https://user-images.githubusercontent.com/105608503/170483721-adedc503-9cd1-4d60-9afb-eddfa6810e02.png)
+    
 
 
     
