@@ -32,13 +32,13 @@ Download dependencies for a system:
          
 # Release v1.1
 
-in this Release we updated the js file to match the requirements. now the user will be able to input a text of any type of food in the text-area filed, the server provides a submit and clear buttons. submit button will be responsible to wrap up the text and sends it to the server (index.js). After the text has been submitted to the server. The server would now analyze the text and lable it with the correct category.
+In this Release we updated the js file to match the requirements. now the user will be able to input a text of any type of food in the text-area filed, the server provides a submit and clear buttons. submit button will be responsible to wrap up the text and sends it to the server (index.js). After the text has been submitted to the server. The server would now analyze the text and lable it with the correct category.
 
-the result after being processed will be returned to the users page (UI).
+The result after being processed will be returned to the users page (UI).
 
 # Travis CI Testing 
 
-we used Travis CI which wass the first CI as a service tool. it introduced a new approach to building code in the cloud. this tool allows the user to link repository, build and test their apps. As well it is a hosted continuious integration services used to build and test software projects hosted on GitHup.it also provides services for open-source projects for free 
+We used Travis CI which wass the first CI as a service tool. it introduced a new approach to building code in the cloud. this tool allows the user to link repository, build and test their apps. As well it is a hosted continuous integration services used to build and test software projects hosted on GitHup.it also provides services for open-source projects for free 
    # The Benefits of Travis CI 
     1) you can monitor GitHub projects
     2) Run Test and generate results
@@ -47,17 +47,17 @@ we used Travis CI which wass the first CI as a service tool. it introduced a new
     
    # Steps in Travis
    
-   First go to Travis CI to sign in with your account in GitHub then accept the Authorization of Travis CI. followed    with clicking on your profile on the top right of your travis dashboard then settings and then the green active      button to select the repositories you want to use.
+   First go to Travis CI to sign in with your account in GitHub then accept the Authorization of Travis CI. followed with clicking on your profile on the top right    of your travis dashboard then settings and then the green active button to select the repositories you want to use.
    
    # The modifications to the files to make the build pass
    
-   in package.json i changed it from:
+   In package.json i changed it from:
       "test":"echo \"Error: no test specified\" && exit !"
    
-   to:  
+   To:  
       "test": "echo \"No test specified\""
       
-   as well i added a fil named .travis.yml the following code was added in the file:
+   As well i added a fil named ".travis.yml" with the following code was added in the file:
       
       Language: node_js
 
@@ -71,7 +71,7 @@ we used Travis CI which wass the first CI as a service tool. it introduced a new
       npm: false
       
       
-  # Then i uploaded the added file and after the change in GitHub for it to see if it passes in Travis CI
+  # Then i uploaded the added file and the file after the update in GitHub for it to see if it passes in Travis CI
       In Terminal we prceeded the following commands:
           git status
           
