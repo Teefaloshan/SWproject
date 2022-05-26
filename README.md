@@ -27,4 +27,9 @@ Download dependencies for a system:
         
   4)install node js:
          node index.js
+         
+# Release v2.0
+
+in this Release we updated the js file to match the requirement 
+
   
